@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PortadaComponent } from './pages/portada/portada.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AlojamientoComponent } from './pages/alojamiento/alojamiento.component';
+import { PasadiaComponent } from './pages/pasadia/pasadia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortadaComponent,
     NavbarComponent,
-    AlojamientoComponent
+    AlojamientoComponent,
+    PasadiaComponent
   ],
   imports: [
     BrowserModule,
